@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JinXiaPluginExample", "JinXiaPluginExample\JinXiaPluginExample.csproj", "{B6A54170-262F-48BB-9088-3E96847D2209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugger", "Plugger\Plugger.csproj", "{56769496-2140-4BA3-B37E-92AA9C048908}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6A54170-262F-48BB-9088-3E96847D2209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A54170-262F-48BB-9088-3E96847D2209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A54170-262F-48BB-9088-3E96847D2209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A54170-262F-48BB-9088-3E96847D2209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56769496-2140-4BA3-B37E-92AA9C048908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56769496-2140-4BA3-B37E-92AA9C048908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56769496-2140-4BA3-B37E-92AA9C048908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56769496-2140-4BA3-B37E-92AA9C048908}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AC2D5DC-45C6-43D0-A976-564B9F99AEA0}
+	EndGlobalSection
+EndGlobal
