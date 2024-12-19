@@ -16,7 +16,7 @@ namespace JinXiaPluginExample
         public string Author { get; set; } = "官方_纵码过河山";
         public string Description { get; set; } = "仅用于提供示例";
         public PlugInType PlugInType { get; set; } = PlugInType.Other;
-        public ImageSource Icon { get { return new BitmapImage(new Uri("/JinXiaPluginExample;component/示例.png", UriKind.Relative)); } }
+        public string IconPath { get; set; } = "/JinXiaPluginExample;component/示例.png";
         public Version Version { get; set; } = Assembly.GetExecutingAssembly().GetName().Version;
 
         /// <summary>
@@ -73,6 +73,12 @@ namespace JinXiaPluginExample
         //    }
         //    window.ShowSetting();
         //}
+
+
+        ///// <summary>
+        ///// 更新插件时保留文件列表（相对路径）
+        ///// </summary>
+        //List<string> KeepFiles => new List<string>(){ "appsettings.json" };
     }
 
 }

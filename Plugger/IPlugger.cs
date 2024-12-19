@@ -1,5 +1,6 @@
-﻿using System.ComponentModel;
-using System.Windows.Media;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace Plugger
 {
@@ -33,9 +34,9 @@ namespace Plugger
         /// </summary>
         string Link => string.Empty;
         /// <summary>
-        /// 图标
+        /// 图标路径（相对路径）
         /// </summary>
-        ImageSource Icon => null;
+        string IconPath => string.Empty;
         /// <summary>
         /// 分类
         /// </summary>
@@ -59,6 +60,16 @@ namespace Plugger
         /// 显示设置方法
         /// </summary>
         void ShowSetting() { }
+
+        /// <summary>
+        /// 更新插件时保留文件列表（相对路径）
+        /// </summary>
+        List<string> KeepFiles => new List<string>();
+
+        /// <summary>
+        /// 更新插件时保留文件夹列表（相对路径）
+        /// </summary>
+        List<string> KeepFolders => new List<string>();
     }
 
     /// <summary>
